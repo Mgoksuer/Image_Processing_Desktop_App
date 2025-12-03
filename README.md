@@ -1,5 +1,7 @@
 # Image Processing Desktop Application
 
+![Application Screenshot](screenshot.png)
+
 This desktop application is designed to demonstrate and apply fundamental digital image processing techniques using Python. It features a user interface built with Tkinter, allowing users to manipulate images using OpenCV and visualize the results side-by-side with the original image.
 
 ## Features
@@ -39,3 +41,10 @@ The tool includes the following processing modules:
 * **Performance:** Processing high-resolution images may cause temporary UI freezes during computationally expensive operations (e.g., Median Filtering).
 * **Memory:** The Undo stores copies of the image in memory; extensive editing sessions on large files may increase RAM usage.
 * **Kernel Shapes:** Morphological operations currently utilize a fixed rectangular kernel shape.
+
+### Requirements
+
+* `opencv-python`
+* `numpy`
+* `matplotlib`
+* `Pillow`
