@@ -1,6 +1,6 @@
 # Image Processing Desktop Application
 
-![Application Screenshot](screenshot.png)
+![Application Screenshot](Screenshot.png)
 
 This desktop application is designed to demonstrate and apply fundamental digital image processing techniques using Python. It features a user interface built with Tkinter, allowing users to manipulate images using OpenCV and visualize the results side-by-side with the original image.
 
